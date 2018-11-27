@@ -1,2 +1,2 @@
 # Andrea's website
-[index.html](Resume)
+[Resume](index.html)
