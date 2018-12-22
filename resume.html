@@ -10,103 +10,156 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
 <body>
-   <div class="container bg-light">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center">Andrea Levy</h1>
+   <div class="container py-4">
+        <div class="jumbotron">
+                <h1 class='display-4'>Andrea Levy</h1>
             </div>
+   </div>
+
+   <div class="container">
+        <h2>Education</h2>
+        <div class="card m-3">
+            <div class="card-header">
+                    <h4 class="card-title">California Polytechnic University</h4>
+                    <h5 class="card-subtitle">San Luis Obispo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Bachelor of Science in Computer Engineering</li>
+                    <li class="list-group-item">Graduation: December 2018</li>
+                    <li class="list-group-item">GPA: 3.21</li>
+
+            </ul>
+            </div>
+        <h2>Skills</h2>
+        <div class="card m-3">
+                <div class="card-header">
+                    <h5 class="card-title">Languages</h5>
+                </div>
+                <div class="card-body">
+                    <p>Java, C, Python, HTML/CSS, JavaScript, JSON, BASH, LISP, YAML, Protobuf</p>
+                </div>
         </div>
+        <div class="card m-3">
+                <div class="card-header">
+                    <h5 class="card-title">Other</h5>
+                </div>
+                    <div class="card-body">
+                        <p>SOAPUI, Junit, CI/CD, Git, Maven, Gradle, Splunk, Jenkins, Cloudify, Terraform, Packer, Azure, Android</p>   
+                    </div>
+                    </div>  
+
         
-    <div class="row">
-        <div class="col-lg-12">
-                <h2>Education</h2>
-                <p>California Polytechnic University San Luis Obispo</p>
-                <p>Bachelor of Science in Computer Engineering</p>
-                <p>Graduation: December 2018</p>
-                <p>GPA: 3.21</p>
-                <h2>Skills</h2>
-                <h5>Languages</h5>
-                <p>Java, C, Python, HTML/CSS, JavaScript, JSON, BASH, LISP, YAML, Protobuf</p>
-                <h5>Other</h5>
-                <p>SOAPUI, Junit, CI/CD, Git, Maven, Gradle, Splunk, Jenkins, Cloudify, Terraform, Packer, Azure, Android</p>
-        </div>
     </div>
-    <div class="row">
-        <div class="col-lg-12"><h2>Experience</h2></div>
-        <div class="col-lg-4">
-            <h3>Digital Technology Intern</h3>
-            <h3> GE Digital</h3>
-            <h4>June 2018 &ndash; September 2018</h4>
-            <h5>San Ramon</h5>
-            <ul>
-                <li>Automated the orchestration of the deployment of software across multiple projects using Cloudify, Terraform, and Azure</li>
-                <li>Collaborated with multiple teams across GE to orchestrate an automated deployment on Azure</li>
-            </ul>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"><h2>Experience</h2></div>
         </div>
-        <div class="col-lg-4">
-            <h3>Digital Technology Intern</h3>
-            <h3>GE Digital</h3>
-            <h4>January 2018 - May 2018</h4>
-            <h5>San Luis Obispo</h5>
-            <ul>
-            <li>Worked on the Power Team to create an API using Java and Protobuf for Predix</li>
-            <li>Used Continuous Integration/Continuous Development to produce production-ready code</li>
-            <li>Helped found the internship program for the San Luis Obispo Office</li>
-            </ul>
-        </div>
-        <div class="col-lg-4">
-                <h3>Software Engineering Intern</h3>
-                <h3>TransUnion</h3>
-                <h4>June 2017 - September 2017</h4>
-                <h5>San Luis Obispo</h5>
-                <ul>
-                <li>Worked in the performance channel to improve customer experience on a Java application using an Oracle database</li>
-                <li>Used an Agile framework to complete various maintenance tasks as a team</li>
-                <li>Tested a UI with tools like WebLogic and SoapUI (company selected)</li>
+        <div class="card m-3">
+                <div class="card-header">
+                    <h4 class="card-title">Digital Technology Intern</h4>
+                    <h5 class="card-subtitle"> GE Digital</h5>
+                    <p class="card-text">June 2018 &ndash; September 2018</p>
+                    <p class="card-text">San Ramon</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Automated the orchestration of the deployment of software across multiple projects using Cloudify, Terraform, and Azure</li>
+                    <li class="list-group-item">Collaborated with multiple teams across GE to orchestrate an automated deployment on Azure</li>
                 </ul>
         </div>
+            <div class="card m-3">
+                <div class="card-header">
+                    <h4 class="card-title">Digital Technology Intern</h4>
+                    <h5 class="card-subtitle">GE Digital</h5>
+                    <p class="card-text">January 2018 - May 2018</p>
+                    <p class="card-text">San Luis Obispo</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Worked on the Power Team to create an API using Java and Protobuf for Predix</li>
+                    <li class="list-group-item">Used Continuous Integration/Continuous Development to produce production-ready code</li>
+                    <li class="list-group-item">Helped found the internship program for the San Luis Obispo Office</li>
+                </ul>
+            </div>
+            <div class="card m-3">
+                <div class="card-header">
+                <h4>Software Engineering Intern</h4>
+                <h5>TransUnion</h5>
+                <p class="card-text">June 2017 - September 2017</p>
+                <p class="card-text">San Luis Obispo</p>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Worked in the performance channel to improve customer experience on a Java application using an Oracle database</li>
+                        <li class="list-group-item">Used an Agile framework to complete various maintenance tasks as a team</li>
+                        <li class="list-group-item">Tested a UI with tools like WebLogic and SoapUI (company selected)</li>
+                </ul>
+            </div>
+
     </div>
+
+    <div class="container">
     <div class="row">
         <div class="col-lg-12"><h2>Projects</h2></div>
-        <div class="col-lg-3">
-            <a href="https://github.com/AndreaLevy238/Eye-Pressure-Monitor"><h4>Eye Pressure Monitor</h4></a>
-            <h5>Android Application</h5>
-            <ul>
-                <li>Java Android application (using Android APIs) connects to an IOIO board that was connected to a sensor in order to measure eye pressure.</li>
-                <li>Created a database to track the results of tests over time</li>
-                <li>Collaborated with an electrical engineer to create an Arduino based interface between the sensor and the Java application</li>
-            </ul>
-        </div>
-
-        <div class="col-lg-3">
-            <a href="https://github.com/AxiomBenchmark/Axiom"><h4>Axiom</h4></a>
-            <h5>JavaScript Testing framework</h5>
-            <ul>
-                <li>Testing platform that tests the performance of a JavaScript frameworks (React, Vue, Polymer) for different devices</li>
-                <li>Reporting platform that compares your results against the results of other users and stores them for later retrieval</li>
-                <li>Collaborated with Comcast Communications to create a framework that worked across multiple devices including Television remotes</li>
-            </ul>
-        </div>
-        <div class="col-lg-3">
-            <a href="https://github.com/AndreaLevy238/CPE329FinalProject"><h4>Coffee Temperature Sensor</h4></a>
-            <ul>
-                <li>Device that used a waterproof temperature sensor that used Dallas one wire connected to an MSP432 in order to measure the temperature of a liquid</li>
-                <li>Used C to implement communication of the Dallas one wire, LCD, and board</li>
-                <li>Displays the temperature and whether the liquid was too hot, too cold, or just right on an LCD</li>
-            </ul>
-        </div>
-        <div class="col-lg-3">
-            <a href="https://github.com/AndreaLevy238/Brain-Trainer"><h4>Brain Trainer</h4></a>
-            <h5>Android Application</h5>
-            <ul>
-                <li>A fully functional Android application that tests basic addition, subtraction and multiplication</li>
-                <li>Beginning at 10, the app increments the highest available number if the user answer is correct</li>
-                <li>If the user is incorrect, the app decrements the highest available number.</li>
-            </ul>
-        </div>
     </div>
-   
+        <div class="card m-3">
+                <div class="card-header">
+                    <h4 class="card-title">Eye Pressure Monitor</h4>
+                    <h5 class="card-subtitle">Android Application</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li  class="list-group-item">Java Android application (using Android APIs) connects to an IOIO board that was connected to a sensor in order to measure eye pressure.</li>
+                    <li class="list-group-item">Created a database to track the results of tests over time</li>
+                    <li class="list-group-item">Displayed the results on a graph</li>
+                    <li class="list-group-item">Collaborated with an electrical engineer to create an Arduino based interface between the sensor and the Java application</li>
+                 </ul>
+                <div class="card-body">
+                    <a href="https://github.com/AndreaLevy238/Eye-Pressure-Monitor"
+                    class="btn btn-primary">Repository</a>
+                </div>
+        </div>
+        <div class="card m-3">
+            <div class="card-header">
+                    <h4 class="card-title">Axiom</h4>
+                    <h5 class="card-subtitle">JavaScript Testing framework</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Testing platform that tests the performance of a JavaScript frameworks (React, Vue, Polymer) for different devices</li>
+                    <li class="list-group-item">Reporting platform that compares your results against the results of other users and stores them for later retrieval</li>
+                    <li class="list-group-item">Collaborated with Comcast Communications to create a framework that worked across multiple devices including Television remotes</li>
+            </ul>
+            <div class="card-body">
+                <a href="https://github.com/AxiomBenchmark/Axiom"
+                class="btn btn-primary">Repository</a>
+            </div>
+        </div>
+        <div class="card m-3">
+                        <div class="card-header">
+                                <h4 class="card-title">Coffee Temperature Sensor</h4>
+                        </div>
+                         <ul class="list-group list-group-flush">
+                             <li class="list-group-item">Device that used a waterproof temperature sensor that used Dallas one wire connected to an MSP432 in order to measure the temperature of a liquid</li>
+                             <li class="list-group-item">Used C to implement communication of the Dallas one wire, LCD, and board</li>
+                             <li class="list-group-item">Displays the temperature and whether the liquid was too hot, too cold, or just right on an LCD</li>
+                        </ul>
+                        <div class="card-body"><a href="https://github.com/AndreaLevy238/CPE329FinalProject"
+                            class="btn btn-primary">Repository</a>
+                        </div>
+        </div>
+        <div class="card m-3">
+                <div class="card-header"><h4>Brain Trainer</h4>
+                    <h5 class="card-subtitle">Android Application</h5>
+                </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">A fully functional Android application that tests basic addition, subtraction and multiplication</li>
+                            <li class="list-group-item">Beginning at 10, the app increments the highest available number if the user answer is correct</li>
+                            <li class="list-group-item">If the user is incorrect, the app decrements the highest available number.</li>
+                    </ul>
+                <div class="card-body">
+                            <a href="https://github.com/AndreaLevy238/Brain-Trainer"class="btn btn-primary">Repository</a>
+                </div>
+        </div>
    </div>
    
 </body>
